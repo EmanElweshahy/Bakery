@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-image: url('photos/drew-coffman-1872.jpg');
+    background-position: center center;
+    background-size: cover;
+    /* width: 100%; */
+    height: 100vh;
+    /* text-align: center; */
+    /* background-color: antiquewhite; */
+}
+.home .navbar{
+    width: 80%;
+    margin: auto;
+    padding-top: 35px;
+}
+.home .navbar img{
+    width: 180px;
+    float: left;
+}
+.home .navbar ul{
+    float: right;
+    list-style: none;
+}
+.home .navbar ul li{
+    display: inline-block;
+    padding-left: 30px;
+}
+.home .navbar ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.home .home-content{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    /* background-color: aqua; */
+
+}
+.home .home-content p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 7px 10px;
+    line-height: 44.64px;
+
+}
+.home .home-content h1{
+    font-weight: 400;
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    margin: 5px;
+}
+.home .home-content .btn1 , .btn2{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 28px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Alegreya Sans' ;
+}
+.home .home-content .btn1{
+    background-color: #8E7754;
+    transition: 0.3s;
+}
+.home .home-content .btn2{
+    background-color:transparent;
+    transition: 0.3s;
+}
+.home .btn1:hover{
+    background-color: transparent;
+}
+.home .btn2:hover{
+    background-color: #8E7754;
+}
+
+.sec2{
+    padding:70px 0px ;
+    width: 80%;
+    margin: auto;
+}
+.sec2 .sec-img{
+    width: 45%;
+    float: left;
+    padding-right: 30px;
+}
+.sec2 .sec-img img{
+    width: 100%;
+}
+.sec-desc{
+    width: 45%;
+    float: left;
+    padding: 10px 40px;
+    /* margin: 20px ; */
+}
+.sec2 .sec-desc .icons img{
+    width: 40px;
+    
+}
+.sec2 .sec-desc h3{
+    margin-top: 50px ;
+    font-family: 'Alegreya', 'seri';
+    font-weight: 400;
+    font-size: 32px ;
+    color: #303030;
+    line-height: 44.16px;
+}
+.sec2 .sec-desc p{
+    color:#686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* vertical-align: 50px; */
+    line-height:31.62px;
+    margin-top: 20px;
+
+}
+.sec2 .sec-desc table tr td{
+    padding: 5px;
+}
+.sec2 .sec-desc table tr td img{
+    border: 1px solid #E7E7E7 ;
+    border-radius: 50%;
+}
+
+.location{
+    /* width: 80%; */
+    /* margin: auto; */
+    background-color: #F8F8F8;
+}
+.location .cont{
+    width: 80%;
+    margin: auto;
+    padding:70px 0px ;
+}
+.location .caption{
+    width: 45%;
+    float: left;
+    margin-top: 70px;
+}
+.location .caption h2{
+    font-size: 32px;
+    font-family: 'Alegreya', 'seri';
+    font-weight: 400;
+    color: #303030;
+
+}
+.location .caption p {
+    color:#686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* vertical-align: 50px; */
+    line-height:31.62px;
+    margin-top: 20px;
+}
+.location .loc-img{
+    width: 45%;
+    float: left;
+    padding-left: 100px;
+    
+}
+.loc-img img{
+    width: 100%;
+}
+
+.Baking{
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.Baking .baking-tittle{
+    text-align: center;
+    /* margin-bottom: 70px; */
+}
+.Baking .baking-tittle h3{
+    font-size: 30px;
+    font-family: 'Alegreya', 'seri';
+    font-weight: 400;
+    line-height:41.4px;
+}
+.Baking .baking-tittle p{
+    color:#888888;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* vertical-align: 50px; */
+    line-height:31.62px;
+    margin-top: 20px;
+}
+.Baking .baking-items {
+    margin-top: 50px;
+    padding-left: 40px;
+}
+.Baking .baking-items .item{
+    float: left;
+    width: 30%;
+    margin-right: 35px;
+    text-align: center;
+}
+.Baking .baking-items .item h4{
+    font-size: 22px;
+    font-family: 'Alegreya', 'seri';
+    font-weight: 400;
+    color: #303030;
+    line-height:30.36px;
+    padding-top: 30px;
+}
+.Baking .baking-items .item p{
+    color:#686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* vertical-align: 50px; */
+    line-height:31.62px;
+    margin-top: 20px;
+}
+.Baking .baking-items .item img{
+    width: 100%;
+}
+.contact-information{
+    width: 80%;
+    margin: auto;
+    padding: 70px 0px;
+}
+.content{
+   
+    background-color: #F8F8F8;
+}
+.content .cont-info{
+    float: left;
+    width: 45%;
+}
+.content .map{
+    width: 45%;
+    float: left;
+}
+.content .map img{
+    padding: 0px 50px ;
+    width: 100%;
+    margin-left: 60px;
+}
+.content .cont-info table tr td{
+    padding: 5px;
+}
+.content .cont-info .cont-details table tr td img{
+    width: 40px;
+    background-color: #8E7754;
+    color: white;
+    border: 1px solid #E7E7E7 ;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.content .contact-information .cont-info h2{
+    font-size: 32px;
+    font-family: 'Alegreya', 'seri';
+    font-weight: 400;
+    line-height:30.36px;
+    /* padding-top: 20px; */
+}
+.content .contact-information .cont-info p{
+    color:#686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    vertical-align:baseline;
+    line-height:31.62px;
+    margin-top: 30px;
+}
+
+.about{
+    background-color: #403D38;
+    padding:60px 0px ;
+}
+.about .about-details{
+    width: 80%;
+    margin: auto;
+}
+.about .about-details .about-item{
+    width: 23%;
+    float: left;
+    margin-left: 20px;
+}
+.about .about-details .about-item ul li img{
+    width: 20px;
+    /* padding-top: 5px; */
+}
+.about .about-details .about-item h4{
+    font-size: 16px;
+    font-family: 'Alegreya', 'seri';
+    font-weight: 400;
+    line-height:24.84px;
+    color: white;
+    /* padding-top: 20px; */
+}
+.about .about-details .about-item p{
+    color:#969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align:baseline;
+    line-height:29.76px;
+    margin-top: 30px;
+}
+.about .about-details .about-item ul{
+    list-style: none;
+
+}
+.about .about-details .about-item ul li{
+    color:#969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align:baseline;
+    line-height:29.76px;
+    margin-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.about .about-details .about-item .icon img {
+    width: 40px;
+}
+
+.footer{
+    background-color: #353330;
+    padding: 80px 0px;
+}
+.footer .footer-content{
+    color: #777777;
+    text-align: center;
+}
+.footer .footer-content p{
+    margin-top: 30px;
+}
+.footer .footer-content .Social img{
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 40px;
+    background-color: #4a4a4a;
+    border-radius: 50%;
+}
+.clr{
+    clear: both;
+}
